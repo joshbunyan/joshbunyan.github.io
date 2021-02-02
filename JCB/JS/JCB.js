@@ -8,3 +8,14 @@ function Condense() {
         x.className = "topnav";
     }
 }
+
+/* On-scroll functions */
+window.onscroll = function() {
+    menuAppearance()
+};
+
+function menuAppearance() {
+    if (document.documentElement.scrollTop > 100) {
+        document.getElementById("myTopnav").className = "topnav";
+    }
+}

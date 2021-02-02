@@ -25,6 +25,12 @@ body {
     }
 }
 
+/* Hide display */
+.dh {
+    display: none;
+}
+
+/* Responsive Menu Settings */
 .topnav {
     overflow: hidden;
     background-color: #333;
