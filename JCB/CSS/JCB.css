@@ -34,7 +34,7 @@ body {
 /* Responsive Menu Settings */
 .topnav {
     overflow: hidden;
-    background-color: #00232d;
+    background-color: none;
     top: 0;
     width: 100%;
     position: fixed;
@@ -43,7 +43,7 @@ body {
 .topnav a {
     float: left;
     display:block;
-    color: #f2f2f2;
+    color: rgb(255,255,255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
