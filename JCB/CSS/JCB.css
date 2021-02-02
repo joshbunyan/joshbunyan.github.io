@@ -37,7 +37,7 @@ body {
     background-color: none;
     top: 0;
     width: 100%;
-    position: fixed;
+    position: absolute;
 }
 
 .topnav a {
