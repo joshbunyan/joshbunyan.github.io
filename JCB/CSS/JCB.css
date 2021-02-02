@@ -59,7 +59,7 @@ body {
     background-size: 0 100%;
     background-position: 100%;
     position: relative;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     transition: all .2s;
 }
 
