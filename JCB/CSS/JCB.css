@@ -153,3 +153,17 @@ body {
         width: 100%;
     }
 }
+
+/* Title Settings */
+.title {
+    text-align: center;
+    color:rgb(255,255,255);
+    font-size: 25px;
+}
+
+/* Subtitle settings*/
+.snark {
+    text-align: center;
+    color:rgb(255,255,255);
+    font-size: 20px;
+}
