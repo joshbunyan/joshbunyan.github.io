@@ -10,7 +10,7 @@ body {
     animation: gradient 6s ease infinite;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    z-index:0;
+    z-index: -2;
 }
 
 @keyframes gradient {
