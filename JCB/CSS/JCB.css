@@ -1,4 +1,13 @@
+/* Set CSS variable here */
+:root {
+    --mcb: rgb(35,74,149);
+    --bl: rgb(0,0,0);
+}
+/* Backgroun animation. */
 body {
+    background: linear-gradient(-45deg, #007de3,#989898);
+    background-size: 400% 400%;
+    animation: gradient 6s ease infinite;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
