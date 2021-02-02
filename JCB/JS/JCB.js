@@ -15,7 +15,7 @@ window.onscroll = function() {
 };
 
 function menuAppearance() {
-    if (document.documentElement.scrollTop > 100) {
+    if (document.documentElement.scrollTop > 150) {
         document.getElementById("myTopnav").className = "topnav";
     }
 }
