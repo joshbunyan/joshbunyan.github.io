@@ -48,6 +48,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    background-size: 100% 100%;
 }
 
 .topnav a:hover {
