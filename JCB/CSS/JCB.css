@@ -48,7 +48,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    background-size: 100% 100%;
+    background-size: 0% 100%;
 }
 
 .topnav a:hover {
@@ -56,7 +56,7 @@ body {
     color: rgb(255,255,255);
     background-image: linear-gradient(transparent calc(100% - 2px), #ffffff 1px);
     text-decoration: none;
-    background-size: 100% 0;
+    background-size: 100% 100%;
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
