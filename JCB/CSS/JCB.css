@@ -60,7 +60,7 @@ body {
     background-position: 100%;
     position: relative;
     background-repeat: no-repeat;
-    transition: all .2s;
+    transition: all .3s;
 }
 
 .topnav a.active {
