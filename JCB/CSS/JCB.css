@@ -33,7 +33,7 @@ body {
 /* Responsive Menu Settings */
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #00232d;
     top: 0;
     width: 100%;
     position: fixed;
@@ -55,7 +55,7 @@ body {
 }
 
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #20e684;
     color: white;
 }
 
