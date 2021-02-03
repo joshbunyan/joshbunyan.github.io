@@ -37,16 +37,20 @@ body {
     overflow: hidden;
     background-color: none;
     display:block;
+    position: absolute;
+}
+
+.options a {
+    display:block;
     color: rgb(255,255,255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     background-size: 0% 100%;
-    position: absolute;
 }
 
-.options:hover {
+.options a:hover {
     background-color: none;
     color: rgb(255,255,255);
     background-image: linear-gradient(transparent calc(100% - 2px), #ffffff 1px);
