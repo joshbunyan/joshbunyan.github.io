@@ -5,7 +5,7 @@
 }
 /* Background animation. */
 body {
-    background: linear-gradient(-45deg,#25e684,#0ef9fc,#02a8d7,#1383c2,#0f4197,#490cc0, #731ad6,#0c1040);
+    background: linear-gradient(-45deg,#25e684,#0ef9fc,#02a8d7,#1383c2,#b70811,#0f4197,#490cc0, #731ad6,#0c1040);
     /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
