@@ -36,7 +36,6 @@ body {
 .options {
     overflow: hidden;
     background-color: none;
-    float: left;
     display:block;
     color: rgb(255,255,255);
     text-align: center;
