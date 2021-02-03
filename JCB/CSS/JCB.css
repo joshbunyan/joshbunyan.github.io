@@ -37,7 +37,9 @@ body {
     overflow: hidden;
     background-color: none;
     display:block;
-    position: absolute;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .options a {
