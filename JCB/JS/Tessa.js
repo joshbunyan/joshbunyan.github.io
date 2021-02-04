@@ -22,7 +22,7 @@ function menuAppearance() {
 
 /* If Yes is clicked */
 function excellent() {
-    document.getElementById("Yes").className = "yn";
+    document.getElementById("dwight").className = "giphy-embed";
 }
 
 /* If No is clicked */
