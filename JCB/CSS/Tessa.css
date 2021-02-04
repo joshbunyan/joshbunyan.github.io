@@ -1,0 +1,220 @@
+/* Set CSS variable here */
+:root {
+    --mcb: rgb(35,74,149);
+    --bl: rgb(0,0,0);
+    --hu: #25e684;
+}
+/* Background animation. */
+body {
+    /*background: linear-gradient(-45deg,#25e684,#b70811,#0f4197, #731ad6,#0c1040);*/
+    /*background: linear-gradient(-45deg,#0ef9fc,#02a8d7,#1383c2,#0f4197,#490cc0, #731ad6,#0c1040);*/
+    /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+    /* KC */
+    background: linear-gradient(-45deg, #000000,#FFB81C,#E31837);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: -2;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Hide display */
+.dh {
+    display: none;
+}
+
+/* Option settings */
+.options {
+    overflow: hidden;
+    background-color: none;
+    display:block;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.options a {
+    display:block;
+    color: rgb(255,255,255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-size: 0% 100%;
+}
+
+.options a:hover {
+    background-color: none;
+    color: var(--hu);
+    background-image: linear-gradient(transparent calc(100% - 2px), #25e684 1px);
+    text-decoration: none;
+    background-size: 100% 100%;
+    background-position: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    transition: all .33s;
+}
+
+/* Continue settings */
+.yn {
+    color:rgb(255,255,255);
+    text-align: center;
+    display: block;
+    font-size: 22px;;
+}
+
+/* Responsive Menu Settings */
+.topnav {
+    overflow: hidden;
+    background-color: none;
+    top: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.topnav a {
+    float: left;
+    display:block;
+    color: rgb(255,255,255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-size: 0% 100%;
+}
+
+.topnav a:hover {
+    background-color: none;
+    color: var(--hu);
+    background-image: linear-gradient(transparent calc(100% - 2px), #25e684 1px);
+    text-decoration: none;
+    background-size: 100% 100%;
+    background-position: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    transition: all .3s;
+}
+
+.topnav a.active {
+    background-color: none;
+    color: var(--hu);
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+/* Canvas line sesstings */
+.line {
+    color: var(--hu);
+    height: 100px;
+    border: 1px solid var(--hu);
+}
+
+/* For desktop, tablets, and anything bigger than 768px */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* For, (hopefully, all), mobile phones */
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* Title Settings */
+.title {
+    text-align: center;
+    color:rgb(255,255,255);
+    font-size: 25px;
+}
+
+/* Subtitle settings*/
+.snark {
+    text-align: center;
+    color:rgb(255,255,255);
+    font-size: 20px;
+}
