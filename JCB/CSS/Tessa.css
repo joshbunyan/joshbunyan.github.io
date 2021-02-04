@@ -35,6 +35,14 @@ body {
     display: none;
 }
 
+/* image settings */
+.traverse {
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    text-align: center;
+}
+
 /* Option settings */
 .options {
     overflow: hidden;

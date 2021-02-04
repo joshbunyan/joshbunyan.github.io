@@ -22,8 +22,8 @@ function menuAppearance() {
 }
 
 function traverse() {
-    if (document.documentElement.scrollTop > 650) {
-        document.getElementById("bc2").className = "";
+    if (document.documentElement.scrollTop > 850) {
+        document.getElementById("bc2").className = "col-5";
     }
 }
 
