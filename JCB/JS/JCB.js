@@ -19,3 +19,13 @@ function menuAppearance() {
         document.getElementById("myTopnav").className = "topnav";
     }
 }
+
+/* If Yes is clicked */
+function excellent() {
+    document.getElementById("Yes").className = "yn";
+}
+
+/* If No is clicked */
+function wrong() {
+    document.getElementById("No").className = "yn";
+}
