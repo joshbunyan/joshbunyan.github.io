@@ -29,3 +29,10 @@ function excellent() {
 function wrong() {
     document.getElementById("No").className = "yn";
 }
+
+/* Canvas Test */
+var c = document.getElementById("line");
+var ctx = c.getContext("2d");
+ctx.moveTo(0,0);
+ctx.lineTo(200,100);
+ctx.stroke();

@@ -140,6 +140,13 @@ body {
     }
 }
 
+/* Canvas line sesstings */
+.line {
+    color: var(--hu);
+    height: 100px;
+    border: 1px solid var(--hu);
+}
+
 /* For desktop, tablets, and anything bigger than 768px */
 .col-1 {
     width: 8.33%;
