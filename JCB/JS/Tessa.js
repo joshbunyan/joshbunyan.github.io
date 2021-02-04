@@ -27,7 +27,7 @@ function excellent() {
 
 /* If No is clicked */
 function wrong() {
-    document.getElementById("No").className = "yn";
+    document.getElementById("dwight2").className = "giphy-embed";
 }
 
 /* Canvas Test */
