@@ -12,11 +12,18 @@ function Condense() {
 /* On-scroll functions */
 window.onscroll = function() {
     menuAppearance()
+    traverse()
 };
 
 function menuAppearance() {
     if (document.documentElement.scrollTop > 150) {
         document.getElementById("myTopnav").className = "topnav";
+    }
+}
+
+function traverse() {
+    if (document.documentElement.scrollTop > 650) {
+        document.getElementById("bc2").className = "";
     }
 }
 
