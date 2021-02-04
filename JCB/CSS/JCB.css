@@ -107,7 +107,7 @@ body {
 
 .topnav a.active {
     background-color: none;
-    color: white;
+    color: var(--hu);
 }
 
 .topnav .icon {
