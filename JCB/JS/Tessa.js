@@ -25,7 +25,7 @@ function menuAppearance() {
 function traverse() {
     if (document.documentElement.scrollTop > 1250) {
         document.getElementById("bc2").className = "snark col-6 dc";
-        document.getElementById("traverse").className = "traverse col-6 dc"
+        document.getElementById("traverse").className = "traverse col-8 dc"
     }
 }
 

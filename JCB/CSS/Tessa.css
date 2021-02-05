@@ -10,7 +10,8 @@ body {
     /*background: linear-gradient(-45deg,#0ef9fc,#02a8d7,#1383c2,#0f4197,#490cc0, #731ad6,#0c1040);*/
     /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
     /* KC */
-    background: linear-gradient(-45deg, #000000,#FFB81C,#E31837);
+    /*background: linear-gradient(-45deg, #000000,#FFB81C,#E31837);*/
+    background: linear-gradient(-45deg, #000000,#049CD8,#FBD000,#E52521);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     margin: 0;
@@ -67,7 +68,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 27px;
     background-size: 0% 100%;
 }
 
