@@ -24,15 +24,15 @@ function menuAppearance() {
 
 function traverse() {
     if (document.documentElement.scrollTop > 1050) {
-        document.getElementById("bc2").className = "snark col-6";
-        document.getElementById("traverse").className = "traverse col-6"
+        document.getElementById("bc2").className = "snark col-6 dc";
+        document.getElementById("traverse").className = "traverse col-6 dc"
     }
 }
 
 function purseFunction() {
     if (document.documentElement.scrollTop > 1100) {
         document.getElementById("purse").className = "snark col-6";
-        document.getElementById("jp").className = "giphy-embed";
+        document.getElementById("jp").className = "giphy-embed dc";
     }
 }
 
