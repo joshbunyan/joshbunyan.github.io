@@ -23,15 +23,15 @@ function menuAppearance() {
 }
 
 function traverse() {
-    if (document.documentElement.scrollTop > 950) {
-        document.getElementById("bc2").className = "snark col-5";
-        document.getElementById("traverse").className = "traverse col-5"
+    if (document.documentElement.scrollTop > 1050) {
+        document.getElementById("bc2").className = "snark col-6";
+        document.getElementById("traverse").className = "traverse col-6"
     }
 }
 
 function purseFunction() {
-    if (document.documentElement.scrollTop > 1000) {
-        document.getElementById("purse").className = "snark col-5";
+    if (document.documentElement.scrollTop > 1100) {
+        document.getElementById("purse").className = "snark col-6";
         document.getElementById("jp").className = "giphy-embed";
     }
 }
