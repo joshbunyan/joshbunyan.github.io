@@ -13,6 +13,7 @@ function Condense() {
 window.onscroll = function() {
     menuAppearance()
     traverse()
+    purseFunction()
 };
 
 function menuAppearance() {
@@ -25,6 +26,12 @@ function traverse() {
     if (document.documentElement.scrollTop > 950) {
         document.getElementById("bc2").className = "snark col-5";
         documwnt.getElementById("traverse").className = "traverse col-5"
+    }
+}
+
+function purseFunction() {
+    if (document.documentElement.scrollTop > 1000) {
+        document.getElementById("purse").className = "snark col-5";
     }
 }
 
