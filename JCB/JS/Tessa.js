@@ -31,7 +31,7 @@ function traverse() {
 
 function purseFunction() {
     if (document.documentElement.scrollTop > 1300) {
-        document.getElementById("purse").className = "snark col-6";
+        document.getElementById("purse").className = "snark";
         document.getElementById("jp").className = "giphy-embed dc";
     }
 }
