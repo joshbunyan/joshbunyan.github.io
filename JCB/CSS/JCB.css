@@ -33,6 +33,13 @@ body {
     display: none;
 }
 
+/* Display Block, Align Center */
+.dbac {
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
 /* Option settings */
 .options {
     overflow: hidden;
