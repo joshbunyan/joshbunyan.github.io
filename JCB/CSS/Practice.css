@@ -5,6 +5,9 @@
     --hu: #25e684;
     --ccSkyBlue:#1Be7ff;
     --ccLightGreen:#6EEB83;
+    --ccDarkTurquoise:#1BC6D9;
+    --ccXanadu:#607466;
+    --ccMaximumPurple:#63326E;
 }
 /* Background animation. */
 body {
@@ -13,7 +16,7 @@ body {
     /*background: linear-gradient(-45deg,#0ef9fc,#02a8d7,#1383c2,#0f4197,#490cc0, #731ad6,#0c1040);*/
     /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
     /*background: linear-gradient(-45deg, #000000,#2A75B3,#F3D403,#CC4224);*/
-    background-color: var(--ccSkyBlue);
+    background-color: var(--ccDarkTurquoise);
     /*background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     margin: 0;*/
@@ -50,7 +53,7 @@ body {
 
 .options a {
     display:block;
-    color: rgb(255,255,255);
+    color: var(--ccXanadu);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -61,7 +64,7 @@ body {
 .options a:hover {
     background-color: none;
     color: var(--hu);
-    background-image: linear-gradient(transparent calc(100% - 2px), var(--ccLightGreen) 1px);
+    background-image: linear-gradient(transparent calc(100% - 2px), var(--ccMaximumPurple) 1px);
     text-decoration: none;
     background-size: 100% 100%;
     background-position: 100%;
@@ -72,7 +75,7 @@ body {
 
 /* Continue settings */
 .yn {
-    color:rgb(255,255,255);
+    color:var(--ccXanadu);
     text-align: center;
     display: block;
     font-size: 22px;;
@@ -90,7 +93,7 @@ body {
 .topnav a {
     float: left;
     display:block;
-    color: rgb(255,255,255);
+    color: var(--ccXanadu);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -101,7 +104,7 @@ body {
 .topnav a:hover {
     background-color: none;
     color: var(--hu);
-    background-image: linear-gradient(transparent calc(100% - 2px), var(--ccLightGreen) 1px);
+    background-image: linear-gradient(transparent calc(100% - 2px), var(--ccMaximumPurple) 1px);
     text-decoration: none;
     background-size: 100% 100%;
     background-position: 100%;
@@ -112,7 +115,7 @@ body {
 
 .topnav a.active {
     background-color: none;
-    color: var(--hu);
+    color: var(--ccMaximumPurple);
 }
 
 .topnav .icon {
@@ -147,9 +150,9 @@ body {
 
 /* Canvas line sesstings */
 .line {
-    color: var(--ccLightGreen);
+    color: var(--ccMaximumPurple);
     height: 100px;
-    border: 1px solid var(--ccLightGreen);
+    border: 1px solid var(--ccMaximumPurple);
 }
 
 /* For desktop, tablets, and anything bigger than 768px */
@@ -211,13 +214,13 @@ body {
 /* Title Settings */
 .title {
     text-align: center;
-    color:rgb(255,255,255);
+    color:var(--ccXanadu);
     font-size: 25px;
 }
 
 /* Subtitle settings*/
 .snark {
     text-align: center;
-    color:rgb(255,255,255);
+    color:var(--ccXanadu);
     font-size: 20px;
 }
