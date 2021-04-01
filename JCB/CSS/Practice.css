@@ -3,6 +3,8 @@
     --mcb: rgb(35,74,149);
     --bl: rgb(0,0,0);
     --hu: #25e684;
+    --ccSkyBlue:#1Be7ff;
+    --ccLightGreen:#6EEB83;
 }
 /* Background animation. */
 body {
@@ -10,10 +12,11 @@ body {
     /*HBO Max/Disney + colors*/
     /*background: linear-gradient(-45deg,#0ef9fc,#02a8d7,#1383c2,#0f4197,#490cc0, #731ad6,#0c1040);*/
     /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
-    background: linear-gradient(-45deg, #000000,#2A75B3,#F3D403,#CC4224);
-    background-size: 400% 400%;
+    /*background: linear-gradient(-45deg, #000000,#2A75B3,#F3D403,#CC4224);*/
+    background-color: var(--ccSkyBlue);
+    /*background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    margin: 0;
+    margin: 0;*/
     font-family: Arial, Helvetica, sans-serif;
     z-index: -2;
 }
@@ -58,7 +61,7 @@ body {
 .options a:hover {
     background-color: none;
     color: var(--hu);
-    background-image: linear-gradient(transparent calc(100% - 2px), #25e684 1px);
+    background-image: linear-gradient(transparent calc(100% - 2px), var(--ccLightGreen) 1px);
     text-decoration: none;
     background-size: 100% 100%;
     background-position: 100%;
@@ -98,7 +101,7 @@ body {
 .topnav a:hover {
     background-color: none;
     color: var(--hu);
-    background-image: linear-gradient(transparent calc(100% - 2px), #25e684 1px);
+    background-image: linear-gradient(transparent calc(100% - 2px), var(--ccLightGreen) 1px);
     text-decoration: none;
     background-size: 100% 100%;
     background-position: 100%;
@@ -144,9 +147,9 @@ body {
 
 /* Canvas line sesstings */
 .line {
-    color: var(--hu);
+    color: var(--ccLightGreen);
     height: 100px;
-    border: 1px solid var(--hu);
+    border: 1px solid var(--ccLightGreen);
 }
 
 /* For desktop, tablets, and anything bigger than 768px */
