@@ -235,5 +235,12 @@ body {
     margin-right: auto;
     display: block;
     text-align: center;
+}
+
+.display-height-auto {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
     height: auto;
 }
