@@ -156,9 +156,9 @@ body {
 
 /* Canvas line sesstings */
 .line {
-    color: var(--ccGL);
+    color: var(--White);
     height: 100px;
-    border: 1px solid var(--ccGL);
+    border: 1px solid var(--White);
 }
 
 /* For desktop, tablets, and anything bigger than 768px */
